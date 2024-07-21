@@ -9,7 +9,7 @@ const videos = [
 
 const Progress = () => {
   return (
-    <div className="mb-5 my-12">
+    <div className="mb-5 mx-4">
       <h2 className="text-lg font-bold mb-3">Continue Watching</h2>
       <div className="flex space-x-4">
         {videos.map((video, index) => (

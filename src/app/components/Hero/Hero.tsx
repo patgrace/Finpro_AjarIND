@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-teal-400 p-20 text-white ">
+    <div className="bg-gradient-to-r from-purple-500 to-blue-400 p-20 text-white ">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Bimbel Online & Offline Terbesar, Terlengkap, dan Terbukti di Indonesia

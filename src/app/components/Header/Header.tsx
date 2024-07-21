@@ -16,7 +16,7 @@ function Header() {
     ];
 
     return (
-         <header className="flex justify-between items-center bg-gradient-to-r from-blue-500 to-teal-500 p-4">
+         <header className="flex justify-between items-center bg-gradient-to-r from-purple-500 to-blue-500 p-4">
                 <div className="text-white text-2xl">
                     <div className="flex items-center">
                         <FaBook className="text-2xl mr-2" />

@@ -26,13 +26,14 @@ export default function learningcenter() {
           </div>
           <div className='flex justify-between mt-5'>
             <div className="flex-1">
-              <LevelandFeature />
-              <SubjectList />
+              <ContinueWatching />
             </div>
             <div className="w-1/4">
               <Mission />
             </div>
           </div>
+          
+          {/* Komponen lain di sini */}
         </main>
       </div>
     )

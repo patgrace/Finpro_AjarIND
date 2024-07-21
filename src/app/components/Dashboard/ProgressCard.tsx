@@ -10,7 +10,7 @@ interface ProgressCardProps {
 
 const ProgressCard: React.FC<ProgressCardProps> = ({ image, title, category, progress }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 w-64">
+    <div className="bg-white rounded-lg shadow-md p-6 w-">
       <img src={image} alt={title} className="w-full h-32 object-cover rounded-md mb-4" />
       <div className="flex items-center justify-between mb-2">
         <span className="text-xs text-blue-500 font-semibold">{category}</span>
