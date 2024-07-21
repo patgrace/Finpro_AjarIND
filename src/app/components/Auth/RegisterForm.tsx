@@ -9,11 +9,8 @@ const RegisterForm: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center p-6 shadow-md rounded-md w-96 bg-purple-400">
-      <h5 className="text-xl mb-2">Create an account</h5>
-      <p className="text-sm mb-4">
-        Already have an account? 
-        <Link href="/login" className="text-blue-500">Log in</Link>
-      </p>
+      <h5 className="text-xl mb-6">Create an account</h5>
+      
       <button className="w-full mb-2 p-2 bg-blue-600 text-white flex items-center justify-center">
         <FacebookIcon className="mr-2" /> Continue with Facebook
       </button>
