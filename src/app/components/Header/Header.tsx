@@ -41,15 +41,13 @@ function Header() {
                         </div>
                     ))}
                 </nav>
-                {/* <div className="text-black">
-                    <Link href="/login" legacyBehavior>
-                        <span className="mr-2">Login</span>
+                <div className="text-black">
+                    <Link href="/login" className="mr-2">Login
                     </Link>
                     /
-                    <Link href="/register" legacyBehavior>
-                        <span className="ml-2">Register</span>
+                    <Link href="/register" className="ml-2">Register
                     </Link>
-                </div> */}
+                </div>
             </header>
     );
 }
