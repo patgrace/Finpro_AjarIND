@@ -2,7 +2,7 @@ import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GoogleIcon from '@mui/icons-material/Google';
 import { useRouter } from 'next/router';
-
+import Link from 'next/link';
 
 const RegisterForm: React.FC = () => {
   const router = useRouter();
@@ -11,7 +11,8 @@ const RegisterForm: React.FC = () => {
     <div className="flex flex-col items-center p-6 shadow-md rounded-md w-96 bg-purple-400">
       <h5 className="text-xl mb-2">Create an account</h5>
       <p className="text-sm mb-4">
-        Already have an account? <a href="/login" className="text-blue-500">Log in</a>
+        Already have an account? 
+        <Link href="/login" className="text-blue-500">Log in</Link>
       </p>
       <button className="w-full mb-2 p-2 bg-blue-600 text-white flex items-center justify-center">
         <FacebookIcon className="mr-2" /> Continue with Facebook
