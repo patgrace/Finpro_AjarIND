@@ -41,7 +41,7 @@ function Header() {
                         </div>
                     ))}
                 </nav>
-                <div className="text-black">
+                {/* <div className="text-black">
                     <Link href="/login" legacyBehavior>
                         <span className="mr-2">Login</span>
                     </Link>
@@ -49,7 +49,7 @@ function Header() {
                     <Link href="/register" legacyBehavior>
                         <span className="ml-2">Register</span>
                     </Link>
-                </div>
+                </div> */}
             </header>
     );
 }
