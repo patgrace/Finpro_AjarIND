@@ -9,21 +9,10 @@ type NavItem = {
 
 function Header() {
     const navItems: NavItem[] = [
-        { href: "/produk", label: "Produk" },
-        { href: "/program", label: "Program" },
-        { href: "/promo", label: "Promo" },
-        { href: "/event", label: "Event" },
-        { href: "/beasiswa", label: "Beasiswa" },
-        { href: "/testimoni", label: "Testimoni" },
-        {
-            href: "#",
-            label: "Layanan",
-            subItems: [
-                { href: "/layanan1", label: "Layanan 1" },
-                { href: "/layanan2", label: "Layanan 2" },
-            ],
-        },
-        { href: "/study-goals", label: "Study Goals" },
+        { href: "/learningcenter", label: "Learning Center" },
+        { href: "/mission", label: "Mission" },
+        { href: "/studygoals", label: "Study Goals" },
+        { href: "/tuti", label: "TUTI" },
     ];
 
     return (
@@ -36,9 +25,9 @@ function Header() {
                 </div>
                 <nav className="flex space-x-4">
                     {navItems.map((item) => (
-                        <div key={item.href} className="relative group">
+                        <div key={item.href} className="relative group ">
                             <Link href={item.href} legacyBehavior>
-                                <a className="text-black">{item.label}</a>
+                                <a className="text-black p-6">{item.label}</a>
                             </Link>
                             {item.subItems && (
                                 <div className="absolute hidden group-hover:block bg-white text-black mt-1 rounded shadow-lg">
@@ -57,8 +46,8 @@ function Header() {
                         <a className="mr-2">Login</a>
                     </Link>
                     /
-                    <Link href="/signup" legacyBehavior>
-                        <a className="ml-2">Sign Up</a>
+                    <Link href="/register" legacyBehavior>
+                        <a className="ml-2">Register</a>
                     </Link>
                 </div>
             </header>
