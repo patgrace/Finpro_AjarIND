@@ -43,11 +43,11 @@ function Header() {
                 </nav>
                 <div className="text-black">
                     <Link href="/login" legacyBehavior>
-                        <a className="mr-2">Login</a>
+                        <span className="mr-2">Login</span>
                     </Link>
                     /
                     <Link href="/register" legacyBehavior>
-                        <a className="ml-2">Register</a>
+                        <span className="ml-2">Register</span>
                     </Link>
                 </div>
             </header>
