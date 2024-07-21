@@ -27,13 +27,13 @@ function Header() {
                     {navItems.map((item) => (
                         <div key={item.href} className="relative group ">
                             <Link href={item.href} legacyBehavior>
-                                <a className="text-black p-6">{item.label}</a>
+                                <span className="text-black p-6">{item.label}</span>
                             </Link>
                             {item.subItems && (
                                 <div className="absolute hidden group-hover:block bg-white text-black mt-1 rounded shadow-lg">
                                     {item.subItems.map((subItem) => (
                                         <Link key={subItem.href} href={subItem.href} legacyBehavior>
-                                            <a className="block px-4 py-2 hover:bg-gray-200">{subItem.label}</a>
+                                            <span className="block px-4 py-2 hover:bg-gray-200">{subItem.label}</span>
                                         </Link>
                                     ))}
                                 </div>
