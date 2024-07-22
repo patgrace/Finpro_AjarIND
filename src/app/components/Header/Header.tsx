@@ -26,8 +26,8 @@ function Header() {
                 <nav className="flex space-x-4">
                     {navItems.map((item) => (
                         <div key={item.href} className="relative group ">
-                            <Link href={item.href} legacyBehavior>
-                                <span className="text-black p-6">{item.label}</span>
+                            <Link href={item.href} className="text-black p-6" >
+                               {item.label}
                             </Link>
                             {item.subItems && (
                                 <div className="absolute hidden group-hover:block bg-white text-black mt-1 rounded shadow-lg">

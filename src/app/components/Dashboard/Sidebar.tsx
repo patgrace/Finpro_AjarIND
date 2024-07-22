@@ -11,7 +11,7 @@ const Sidebar = () => {
     { name: 'Beranda', href: '/beranda', icon: <PiCirclesFourFill /> },
     { name: 'Learning Center', href: '/learningcenter', icon: <RiBookReadLine/>,},
     { name: 'TUTI', href: '/tuti', icon: <RiRobot2Line/>},
-    { name: 'Study Groups', href: '/study Groups', icon: <RiTeamLine/>},
+    { name: 'Study Groups', href: '/studygroups', icon: <RiTeamLine/>},
     { name: 'Settings', href: '/settings', icon: <RiSettings4Line/>},
     { name: 'Logout', href: '/', icon: <FaSignOutAlt />, className: 'text-red-500' },
   ];
