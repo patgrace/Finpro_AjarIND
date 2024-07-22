@@ -22,8 +22,8 @@ const Sidebar = () => {
       <div className="text-center my-5 flex items-center justify-between">
           <div className="flex items-center">
             <div className='m-2'>
-              <h2 className="text-lg font-bold text-gray-800">Patricia Grace</h2>
-              <p className="text-gray-600">patricia.grace@gmail.com</p>
+              <h2 className="text-lg font-bold text-gray-800">Ice Cream</h2>
+              <p className="text-gray-600">icecream@gmail.com</p>
             </div>
             <MdOutlineKeyboardDoubleArrowLeft className="text-gray-600 ml-2" />
           </div>

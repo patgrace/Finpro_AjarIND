@@ -9,9 +9,9 @@ type NavItem = {
 
 function Header() {
     const navItems: NavItem[] = [
+        { href: "/beranda", label: "Beranda" },
         { href: "/learningcenter", label: "Learning Center" },
-        { href: "/mission", label: "Mission" },
-        { href: "/studygoals", label: "Study Goals" },
+        { href: "/studygroups", label: "Study Groups" },
         { href: "/tuti", label: "TUTI" },
     ];
 
