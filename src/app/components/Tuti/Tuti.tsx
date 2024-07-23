@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <div className="bg-purple-600 text-white p-10 shadow-md rounded-2xl mt-4 flex items-center justify-between">
+    <div className="bg-purple-600 text-white px-6 py-2 shadow-md rounded-2xl mt-4 flex items-center justify-between">
       <div>
         <h1 className="text-3xl font-bold mb-4">Bantu Kamu Jawab Soal dengan Tepat dan Real-Time!</h1>
         <p className="mb-6">Ayo, dapatkan jawaban yang mudah dipahami untukmu!</p>
